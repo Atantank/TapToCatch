@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 191d3fa759864ee4a8097dc2c2b52943
+timeCreated: 1487154758
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Messy Fika
+  fontNames:
+  - Messy Fika
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

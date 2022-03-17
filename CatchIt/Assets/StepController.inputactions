@@ -1,0 +1,80 @@
+{
+    "name": "StepController",
+    "maps": [
+        {
+            "name": "Android",
+            "id": "26caea65-2523-4ba7-b2cd-a8852ddbd26b",
+            "actions": [
+                {
+                    "name": "Tap",
+                    "type": "Button",
+                    "id": "91e49694-cedb-4b7d-9f52-fbbec8f88314",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "TapPosition",
+                    "type": "Value",
+                    "id": "ccc35ece-0a7b-4415-b50e-db634da0fced",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "32552feb-8036-4c45-9153-9715fe9c96ac",
+                    "path": "<Touchscreen>/primaryTouch/tap",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "SensorScreen",
+                    "action": "Tap",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "bb381d42-e2ec-4313-80c9-91b5d7ac1ab8",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "SensorScreen",
+                    "action": "Tap",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "92ab9a3f-ad39-4eb1-9761-2cb7cb07aed0",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "SensorScreen",
+                    "action": "TapPosition",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "275f2bef-72b0-4e86-9a1b-827d7a61f3a6",
+                    "path": "<Touchscreen>/primaryTouch/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "SensorScreen",
+                    "action": "TapPosition",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "SensorScreen",
+            "bindingGroup": "SensorScreen",
+            "devices": []
+        }
+    ]
+}
